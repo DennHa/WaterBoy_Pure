@@ -11,140 +11,88 @@
     <meta name="description" content="My description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My title</title>
+    <title>HAPPY BIRTHDAY GREAT SCOTT</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="/"><img alt="Logo" src="https://via.placeholder.com/200x70?text=Logo" height="70"></a>
-            <ul>
-                <li>Menu Item 1</li>
-                <li><a href="#">Menu Item 2</a></li>
-                <li><a href="#">Dropdown Menu Item</a>
-                    <ul>
-                        <li><a href="#">Sublink 1</a></li>
-                        <li><a href="#">Sublink 2</a></li>
-                    </ul>
-                </li>
-            </ul>
+
         </nav>
-        <h1>Page Heading with <i>Italics</i> and <u>Underline</u></h1>
-        <p>Page Subheading with <mark>highlighting</mark></p>
-        <br>
-        <p><a href="#"><i>Italic Link Button</i></a><a href="#"><b>Bold Link Button &rarr;</b></a></p>
+        <h1>HAPPY BIRTHDAY GREAT SCOTT!
+        </h1>
+        <img src="https://media.giphy.com/media/5y8sRBYSWWb16/200.gif" alt="">
     </header>
     <main>
-        <hr>
-        <section>
-            <header>
-                <h2>Section Heading</h2>
-                <p>Section Subheading</p>
-            </header>
-            <aside>
-                <h3>Card heading</h3>
-                <p>Card content*</p>
-                <p><small>*with small content</small></p>
-            </aside>
-            <aside>
-                <h3>Card heading</h3>
-                <p>Card content <sup>with notification</sup></p>
-            </aside>
-            <aside>
-                <h3>Card heading</h3>
-                <p>Card content</p>
-            </aside>
-        </section>
-        <hr>
-        <section>
-            <blockquote>
-                "Quote"
-                <footer><i>- Attribution</i></footer>
-            </blockquote>
-        </section>
-        <hr>
-        <section>
-            <table>
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>Col A</th>
-                        <th>Col B</th>
-                        <th>Col C</th>
-                    </tr>
-                </thead>
-                <tr>
-                    <td>Row 1</td>
-                    <td>Cell A1</td>
-                    <td>Cell B1</td>
-                    <td>Cell C1</td>
-                </tr>
-                <tr>
-                    <td>Row 2</td>
-                    <td>Cell A2</td>
-                    <td>Cell B2</td>
-                    <td>Cell C2</td>
-                </tr>
-            </table>
-        </section>
-        <hr>
-        <article>
-            <h2>Left-aligned header</h2>
-            <p>Left-aligned paragraph</p>
-            <aside>
-                <p>Article callout</p>
-            </aside>
-            <ul>
-                <li>List item 1</li>
-                <li>List item 2</li>
-            </ul>
-            <figure>
-                <img alt="Stock photo" src="https://via.placeholder.com/1080x500?text=Amazing+stock+photo">
-                <figcaption><i>Image caption</i></figcaption>
-            </figure>
-        </article>
-        <hr>
-        <div>
-            <details>
-                <summary>Expanable title</summary>
-                <p>Revealed content</p>
-            </details>
-            <details>
-                <summary>Another expanable title</summary>
-                <p>More revealed content</p>
-            </details>
+        <div class="intro">
+            <p>
+                Lieber Scott,
+                <br>
+                <br> ich wünsche dir zu dein deinem Geburtstag nur das Allerbeste.
+                <br> Auch wenn wir dieses Jahr, dank Corona, ein etwas sonderbares ist, hoffe ich doch, dass du deinen Ehrentag genießen kannst.
+                <br> Dieses Jahr bekommt du wieder etwas zum basteln von mir Geschenkt - Nämlich den <b>Water Boy</b>.
+                <br>
+                <br> Amber hatte mir erzählt, dass du schon fleißig dabei bist deinen „Gemüsegarten“ anzulegen, und da dachte ich mir, dass eine Arduino gesteuerte Pflanzbewässerungsanlage perfekt zu dir passen würde!
+            </p>
             <br>
-            <p>Inline <code>code</code> snippets</p>
-            <pre>
-                <code>
-// preformatted code block
-                </code>
-            </pre>
+            <br>
+            <h2>Der Water Boy</h2>
+            <p> Du bekommst von mir ein kleines Starterkit welches schon mal folgende Teile beinhaltet:
+            </p>
+            <ul>
+                <li>“Arduino“ D1 mini</li>
+                <li>Einen kapazitiven Moisture Sensor</li>
+                <li>Zwei Wasserpumpen</li>
+                <li>Relais zum ansteuern der Pumpe</li>
+                <li>Wasserschlauch</li>
+            </ul>
+            <br>
+            <p>
+                Was du noch brauchst:
+            </p>
+            <ul>
+                <li>Schaltlitze</li>
+                <li>Lötzinn und Lötkolben</li>
+                <li>Micro USB Kabel</li>
+                <li>USB-Ladegerät oder Battery-Pack</li>
+            </ul>
+            <br>
+            <h3>
+                Funktionalität
+            </h3>
+            <iframe width="800" height="500" src="https://www.youtube.com/embed/LfrsFI3JPjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>
+                Mit dem <i>Water Boy</i> kannst du den aktuellen Feuchtigkeitswert in der Erde messen. Sobald eine (von dir eingestellter) Grenzewert erreicht wird, schaltet das Relais die Pumpe an.
+            </p>
+            <br>
+            <h3>
+                Der Aufbau
+            </h3>
+            <img src="img/aufbau.png" alt="">
+            <br>
+            <h3>
+                Der Code
+            </h3>
+            <p>
+                Ich habe dir die Grundversion des <i>Water Boy</i> auf github gelegt.
+                <br> <a href="https://github.com/DennHa/WaterBoy_Pure/">https://github.com/DennHa/WaterBoy_Pure/</a> (Die *.ino datei!)
+            </p>
+            <p>Ich bin gerade noch dabei den Water Boy über die <a href="https://blynk.io/">Blynk</a> App noch zu erweitern um z.B. den Grenzwert über die App zu bestimmen zu können. Falls du Lust hast, können wir das Gerne auch mal bei einem Bier besprechen
+                :)
+            </p>
+
+            <br>
+            <br>
+            <h3>
+                Ich wünsche dir viel Spaß und melde dich gerne bei Fragen :)
+                <br> Dennis
+            </h3>
+
         </div>
-        <hr>
-        <section>
-            <form>
-                <header>
-                    <h2>Form title</h2>
-                </header>
-                <label for="input1">Input label:</label>
-                <input type="text" id="input1" name="input1" size="20" placeholder="Input1">
-                <label for="select1">Select label:</label>
-                <select id="select1">
-                    <option value="option1">option1</option>
-                    <option value="option2">option2</option>
-                </select>
-                <label for="textarea1">Textarea label:</label>
-                <textarea cols="40" rows="5" id="textarea1"></textarea>
-                <button type="submit">Submit</button>
-            </form>
-        </section>
     </main>
     <footer>
         <hr>
-        <p>
-            Contact info
-        </p>
+
     </footer>
 </body>
 
